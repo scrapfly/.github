@@ -12,9 +12,11 @@ You can handle any increase in workload without worrying about infrastructure. O
 - **Full Customization**
 - **Webhooks**
 
-With ScrapFly, you can quickly build your project and eliminate the need for time-consuming tasks like proxy management, managing headless browsers, and bypassing blocking protection.
+With ScrapFly, you can quickly build your project and eliminate the need for time-consuming tasks like proxy management, managing headless browsers, and bypassing blocking protection.  
 
+![scrapfly](https://github.com/scrapfly/.github/assets/73492002/2963e856-1999-4420-bda3-f6ffde7a8190)  
 
+ScrapFly is accessible using any programming language or HTTP client. Additionaly, [Python](https://github.com/scrapfly/python-scrapfly) and [Typescript](https://github.com/scrapfly/typescript-scrapfly) SDKs are available.
 
 We've helped countless clients across various industries, including real estate, ecommerce, human resources, competitive intelligence, news, market stock, and travel. Let us help you achieve your web scraping goals today.  
 **Get started now!** [Sign-up for FREE](https://scrapfly.io/register) to obtain your API token.
