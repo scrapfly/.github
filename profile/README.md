@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/0KGbMQB.png" align="center">
+
 
 <h1 align="center">
 <a href="https://scrapfly.io">Scrapfly.io</a>
@@ -31,6 +31,13 @@ Handle any workload surge without worrying about infrastructure—our state-of-t
 Scrapfly eliminates the hassle of dealing with proxies, headless browsers, and anti-bot defenses, allowing you to focus on building your project.  
 
 Our API is accessible via any programming language or HTTP client, with dedicated SDKs available for [Python](https://github.com/scrapfly/python-scrapfly) and [Typescript](https://github.com/scrapfly/typescript-scrapfly).
+
+## Proxy Saver
+Enhance your proxies with [Scrapfly's proxy saver](https://scrapfly.io/proxy-saver) to save bandwidth and optimize proxy performance. The proxy saver is a middleware service that enhances your proxies with bandwidth saving, stability improvements and connection profiles, allowing you to:
+- Save up to 50% of bandwidth with proxy optimizations and data stubbing
+- Automatically cache results, redirects and CORS from our CDN
+- Choose fingerprint profiles from a pool of real web browser profiles. By default replicate 1:1 incoming
+- Plug and Play with any existing proxy providers. Integrate the solution in 5min chrono
 
 Join the ranks of successful clients across industries like real estate, e-commerce, HR, competitive intelligence, news, stock markets, and travel. Let us help you achieve your web scraping objectives today!  
 **Ready to start?** [Sign up for FREE](https://scrapfly.io/register) and get your API token now.
