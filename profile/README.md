@@ -11,11 +11,12 @@ Effortlessly scale your web scraping projects with our API, engineered for the h
 Handle any workload surge without worrying about infrastructure—our state-of-the-art solution integrates a full suite of tools, making it easy to scrape any target with confidence.  
 </p>
 
-### Available APIs
+### Available Products
 
 * [Web Scraping API](https://scrapfly.io/docs/onboarding#web-scraping-api)
 * [Web Document Extraction API](https://scrapfly.io/docs/onboarding#extraction-api)
 * [Web Screenshot API](https://scrapfly.io/docs/onboarding#screenshot-api)
+* [Proxy Saver](https://scrapfly.io/docs/proxy-saver/getting-started)
 
 ### Key Features of Scrapfly
 
