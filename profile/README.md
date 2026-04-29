@@ -1,8 +1,13 @@
-# Scrapfly
+<p align="center">
+  <img src="./profile/assets/cover-1-terminal-launches.svg" alt="Scrapfly · the web data layer for scrapers and AI agents" width="100%">
+</p>
 
-*The web data layer for scrapers and AI agents.*
-
-[Get a free API key →](https://scrapfly.io/register) · [Docs](https://scrapfly.io/docs)
+<p align="center">
+  <a href="https://scrapfly.io"><img src="https://img.shields.io/badge/website-scrapfly.io-4ea8f1?style=flat-square&labelColor=091e42" alt="Website"></a>
+  <a href="https://scrapfly.io/docs"><img src="https://img.shields.io/badge/docs-read-4ea8f1?style=flat-square&labelColor=091e42" alt="Docs"></a>
+  <a href="https://scrapfly.io/docs"><img src="https://img.shields.io/badge/5_APIs-One_key-fd7e14?style=flat-square&labelColor=091e42" alt="5 APIs · One key"></a>
+  <a href="https://scrapfly.io/register"><img src="https://img.shields.io/badge/get-free%20API%20key%20%E2%86%92-50BA64?style=flat-square&labelColor=091e42" alt="Get free API key"></a>
+</p>
 
 ---
 
@@ -40,7 +45,7 @@ One key unlocks all five.
 | Scrapy | [docs](https://scrapfly.io/docs/sdk/scrapy) | `pip install "scrapfly-sdk[scrapy]"` |
 | n8n | [n8n-nodes-scrapfly](https://github.com/scrapfly/n8n-nodes-scrapfly) | n8n community node |
 
-**LLM framework integrations:** [LangChain](https://scrapfly.io/integration/langchain) · [LlamaIndex](https://scrapfly.io/integration/llamaindex) · [CrewAI](https://scrapfly.io/integration/crewai)
+**LLM framework integrations:** [LangChain](https://scrapfly.io/integration/langchain) · [LlamaIndex](https://scrapfly.io/integration/llamaindex) · [CrewAI](https://scrapfly.io/integration/crewai) · Zapier · Make · n8n
 
 ---
 
