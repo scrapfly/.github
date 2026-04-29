@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover-1-terminal-launches.svg" alt="Scrapfly · the web data layer for scrapers and AI agents" width="100%">
+  <img src="https://raw.githubusercontent.com/scrapfly/.github/34ff44f3e4348af49467d6212d1d387c92f66522/profile/assets/cover-1-terminal-launches.svg" alt="Scrapfly · the web data layer for scrapers and AI agents" width="100%">
 </p>
 
 <p align="center">
