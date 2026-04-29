@@ -1,49 +1,56 @@
+# Scrapfly
 
+*The web data platform for developers — one API key, every scraping primitive.*
 
-<h1 align="center">
-<a href="https://scrapfly.io">Scrapfly.io</a>
-</h1>
+[Get a free API key →](https://scrapfly.io/register) · [Docs](https://scrapfly.io/docs)
 
-<h4 align="center">The Ultimate Web Scraping API - Defeat Anti-Bot Measures - Leverage Stealth Browsers - Extract Data Seamlessly</h4>
+---
 
-<p align="center">
-Effortlessly scale your web scraping projects with our API, engineered for the highest success rates on the market.  
-Handle any workload surge without worrying about infrastructure—our state-of-the-art solution integrates a full suite of tools, making it easy to scrape any target with confidence.  
-</p>
+## Core APIs
 
-### Available Products
+One key unlocks all five.
 
-* [Web Scraping API](https://scrapfly.io/docs/onboarding#web-scraping-api)
-* [Web Document Extraction API](https://scrapfly.io/docs/onboarding#extraction-api)
-* [Web Screenshot API](https://scrapfly.io/docs/onboarding#screenshot-api)
-* [Proxy Saver](https://scrapfly.io/docs/proxy-saver/getting-started)
+| API | What it does | Docs |
+|---|---|---|
+| **Web Scraping** | Scrape any page, bypass anti-bot, render JS at scale | [docs](https://scrapfly.io/docs/scrape-api/getting-started) |
+| **Cloud Browser** | Remote stealth browsers with full CDP for automation | [docs](https://scrapfly.io/docs/cloud-browser-api/getting-started) |
+| **Screenshot** | Full-page screenshots, auto-scroll, element capture, PDF | [docs](https://scrapfly.io/docs/screenshot-api/getting-started) |
+| **Extraction** | AI-powered structured data from HTML and documents | [docs](https://scrapfly.io/docs/extraction-api/getting-started) |
+| **Crawler** *(beta)* | Crawl entire sites with a single API call | [docs](https://scrapfly.io/docs/crawler-api/getting-started) |
 
-### Key Features of Scrapfly
+---
 
-- **Automatic Proxy Rotation** - No more manual proxy management.
-- **Anti-Bot Bypass** - Navigate past anti-bot measures with ease.
-- **Managed Headless Browsers** - Stealthy and efficient scraping.
-- **Real-Time Dashboard** - Monitor your scraping tasks in real-time.
-- **Persistent Sessions** - Maintain sessions across requests.
-- **Caching System** - Speed up your scrapes with built-in caching.
-- **Full Customization** - Tailor the API to fit your specific needs.
-- **Webhooks** - Automate workflows with seamless integration.
+## Platform & Tools
 
-Scrapfly eliminates the hassle of dealing with proxies, headless browsers, and anti-bot defenses, allowing you to focus on building your project.  
+- **🔌 MCP Server** — Connect Claude, Cursor, and other LLM clients to live web data. → [Repo](https://github.com/scrapfly/scrapfly-mcp)
+- **🤖 AI Browser Agent** *(new)* — Automate any site with natural language. Self-healing, structured JSON output. → [Try it](https://scrapfly.io/products/ai-browser-agent)
+- **⌨️ Scrapfly CLI** — Agentic shell for scraping, extraction, screenshots, and autonomous crawls. Works in terminals and CI. → [Product page](https://scrapfly.io/products/scrapfly-cli) · [Repo](https://github.com/scrapfly/scrapfly-cli)
+- **🛡️ Antibot Detector** *(beta)* — Identify which antibot guards any site (Cloudflare, DataDome, Akamai, Kasada, +20 more). → [Product page](https://scrapfly.io/products/antibot-detector) · [Repo](https://github.com/scrapfly/Antibot-Detector)
 
-Our API is accessible via any programming language or HTTP client, with dedicated SDKs available for [Python](https://github.com/scrapfly/python-scrapfly) and [Typescript](https://github.com/scrapfly/typescript-scrapfly).
+---
 
-## Proxy Saver
-Enhance your proxies with [Scrapfly's proxy saver](https://scrapfly.io/proxy-saver) to save bandwidth and optimize proxy performance. The proxy saver is a middleware service that enhances your proxies with bandwidth saving, stability improvements and connection profiles, allowing you to:
-- Save up to 50% of bandwidth with proxy optimizations and data stubbing
-- Automatically cache results, redirects and CORS from our CDN
-- Choose fingerprint profiles from a pool of real web browser profiles. By default replicate 1:1 incoming
-- Plug and Play with any existing proxy providers. Integrate the solution in 5min chrono
+## SDKs & Libraries
 
-Join the ranks of successful clients across industries like real estate, e-commerce, HR, competitive intelligence, news, stock markets, and travel. Let us help you achieve your web scraping objectives today!  
-**Ready to start?** [Sign up for FREE](https://scrapfly.io/register) and get your API token now.
+| Language | Repo | Install |
+|---|---|---|
+| Python | [python-scrapfly](https://github.com/scrapfly/python-scrapfly) | `pip install scrapfly-sdk` |
+| TypeScript / JS | [typescript-scrapfly](https://github.com/scrapfly/typescript-scrapfly) | `npm i scrapfly-sdk` |
+| Go | [go-scrapfly](https://github.com/scrapfly/go-scrapfly) | `go get github.com/scrapfly/go-scrapfly` |
+| Rust | [rust-scrapfly](https://github.com/scrapfly/rust-scrapfly) | `cargo add scrapfly-sdk` |
+| Scrapy | [docs](https://scrapfly.io/docs/sdk/scrapy) | `pip install "scrapfly-sdk[scrapy]"` |
+| n8n | [n8n-nodes-scrapfly](https://github.com/scrapfly/n8n-nodes-scrapfly) | n8n community node |
 
-## Scrapfly Scrapers
-Explore the [Scrapfly Scrapers](https://github.com/scrapfly/scrapfly-scrapers) repository for example scrapers targeting popular websites using Scrapfly's Web Scraping API with Python.
+**LLM framework integrations:** [LangChain](https://scrapfly.io/integration/langchain) · [LlamaIndex](https://scrapfly.io/integration/llamaindex) · [CrewAI](https://scrapfly.io/integration/crewai) · Zapier · Make · n8n
 
-For in-depth guides on web scraping techniques, bypassing blocks, HTML parsing, and best practices, visit the [Scrapfly blog](https://scrapfly.io/blog).
+---
+
+## Resources
+
+- 📚 [Example scrapers (40+ sites)](https://github.com/scrapfly/scrapfly-scrapers)
+- 🧠 [Agent skills](https://github.com/scrapfly/skills)
+- 📖 [Blog & guides](https://scrapfly.io/blog)
+- 📜 [OpenAPI spec](https://scrapfly.io/docs/openapi)
+
+---
+
+> **Start scraping in 60 seconds — [grab a free API key](https://scrapfly.io/register), no credit card required.**
