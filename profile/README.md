@@ -29,7 +29,7 @@ One key unlocks all five.
 
 - **🔌 MCP Server** — Connect Claude, Cursor, and other LLM clients to live web data. → [Repo](https://github.com/scrapfly/scrapfly-mcp)
 - **🤖 AI Browser Agent** *(new)* — Automate any site with natural language. Self-healing, structured JSON output. → [Try it](https://scrapfly.io/products/ai-browser-agent)
-- **⌨️ Scrapfly CLI** — Agentic shell for scraping, extraction, screenshots, and autonomous crawls. Works in terminals and CI. → [Product page](https://scrapfly.io/products/scrapfly-cli) · [Repo](https://github.com/scrapfly/scrapfly-cli)
+- **⌨️ Scrapfly CLI** — Agentic shell for scraping, extraction, screenshots, and autonomous crawls. Works in terminals and CI. → [Product page](https://scrapfly.io/products/scrapfly-cli) · [Docs](https://scrapfly.io/docs/cli) · [Repo](https://github.com/scrapfly/scrapfly-cli)
 - **🛡️ Antibot Detector** *(beta)* — Identify which antibot guards any site (Cloudflare, DataDome, Akamai, Kasada, +20 more). → [Product page](https://scrapfly.io/products/antibot-detector) · [Repo](https://github.com/scrapfly/Antibot-Detector)
 
 ---
@@ -38,6 +38,7 @@ One key unlocks all five.
 
 | Language | Repo | Install |
 |---|---|---|
+| CLI | [scrapfly-cli](https://github.com/scrapfly/scrapfly-cli) | `curl -fsSL scrapfly.io/cli \| sh` |
 | Python | [python-scrapfly](https://github.com/scrapfly/python-scrapfly) | `pip install scrapfly-sdk` |
 | TypeScript / JS | [typescript-scrapfly](https://github.com/scrapfly/typescript-scrapfly) | `npm i scrapfly-sdk` |
 | Go | [go-scrapfly](https://github.com/scrapfly/go-scrapfly) | `go get github.com/scrapfly/go-scrapfly` |
